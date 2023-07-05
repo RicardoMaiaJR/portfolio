@@ -1,0 +1,579 @@
+@import url('https://fonts.cdnfonts.com/css/pixeldust');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html{
+    scroll-behavior: smooth !important;
+    background-image: linear-gradient(#1b1b1b, black);
+    z-index: 0;
+}
+
+*{
+    margin:  0;
+    padding: 0;
+}
+
+/*Separações*/
+
+.tudo{
+    background-color: none;
+}
+
+.meio{
+    font-family: 'Roboto', sans-serif;
+    margin: 100px 0;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/*barra de navegação*/
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 20px 0 20px 0;
+    background: #03A64A;
+    transition: 1s;
+}
+
+.title{
+    font-size: 150%;
+    color: #1b1b1b;
+    font-family: 'Pixeldust Expanded', sans-serif;
+    text-shadow: 0 2px #004d21;
+    padding: 20px;
+}
+
+nav{
+    justify-content: space-evenly;
+    align-self:center;
+    display: block;
+    text-align: right;
+    flex: 1;
+    font-family: 'Pixel Square', sans-serif;
+}
+
+nav ul{
+    margin: 10px;
+}
+
+nav ul li{
+    flex-wrap: wrap;
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul img{
+    height: 30px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1b1b1b;
+    transition: 0.5s;
+    
+}
+
+nav ul li a:hover{
+    color: #730202;
+    text-shadow: none;
+}
+
+.colorbox1{
+    display: block;
+    background-color: #007231;
+    width: 100%;
+    height: 10px;
+}
+
+/*conteudo 1*/
+.sobremim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoSM{
+    flex-basis: 40%;
+    position: relative;
+    background-color: #03A64A;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px #007231;
+}
+
+.textoSM h1{
+    color: #1b1b1b;
+    font-family: 'Pixeldust Expanded', sans-serif;
+    text-shadow: 0 2px #004d21;
+}
+
+.textoSM h3{
+    padding: 10px;
+    color: #fff;
+    transition: .5s;
+}
+.textoSM span{
+    transition: all 0.5s;
+}
+.textoSM span:hover{
+    color: #F20505;
+}
+
+.foto{
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+    transition: .3s;
+    background: url(images/foto1.png) no-repeat;
+    background-size: 100% 100%;
+    object-fit: scale-down;
+    box-shadow: 10px 10px #0000006e;
+}
+
+.foto:hover{
+    background: url(images/fotoBG.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/*3D*/
+.threed{
+    margin-top: 40px;
+    height: 100%;
+    color: #fff;
+}
+
+.texto3D{
+    background-color: #03A64A;
+    border-radius: 15px;
+    box-shadow: 10px 10px #007231;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.texto3D h1{
+    text-align: center;
+    color: #1b1b1b;
+    font-family: 'Pixeldust Expanded', sans-serif;
+    text-shadow: 0 2px #004d21;
+    padding: 20px;
+}
+
+.texto3D h3{
+    padding: 0 30px 10px 30px;
+}
+.texto3D h5{
+    padding: 0 30px 30px 30px;
+}
+.texto3D .blender{
+    transition: all 0.5s;
+}
+.texto3D .substance{
+    transition: all 0.5s;
+}
+.texto3D .voxel{
+    transition: all 0.5s;
+}
+.texto3D .blender:hover{
+    color: orange;
+}
+.texto3D .substance:hover{
+    color: rgb(255, 49, 67);
+}
+.texto3D .voxel:hover{
+    color: rgb(214, 52, 255);
+}
+
+.images3d{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images3d .img-box{
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    border-radius: 50px;
+    background: url(images/3d1.png);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    position: relative;
+}
+.images3d .img-box:nth-child(2){
+    background: url(images/3d2.png);
+    background-size: cover;
+    background-position: center;
+}
+.images3d .img-box:nth-child(3){
+    background: url(images/3d3.png);
+    background-size: cover;
+    background-position: center;
+}
+.images3d .img-box:nth-child(4){
+    background: url(images/3d4.png);
+    background-size: cover;
+    background-position: center;
+}
+.images3d .img-box:nth-child(5){
+    background: url(images/3D5.png);
+    background-size: cover;
+    background-position: center;
+}
+.images3d .img-box:nth-child(6){
+    background: url(images/3D6.png);
+    background-size: cover;
+    background-position: center;
+}
+.images3d .img-box:nth-child(7){
+    background: url(images/3D7.png);
+    background-size: cover;
+    background-position: center;
+}
+.images3d .img-box:hover{
+    border-radius: 10px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/*jogos*/
+.jogos{
+    margin-top: 40px;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.videoplayer video {
+    width: 100%;
+}
+
+.textoJogos{
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: #03A64A;
+    border-radius: 15px;
+    box-shadow: 10px 10px #007231;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.textoJogos h1{
+    margin: 20px 20px 0 20px;
+    color: #1b1b1b;
+    font-family: 'Pixeldust Expanded', sans-serif;
+    text-shadow: 0 2px #004d21;
+}
+
+.textoJogos h3{
+    padding: 20px 20px 10px 20px;
+}
+
+.textoJogos h5{
+    padding: 0 0 10px 0;
+}
+
+.linkJogos{
+    font-size: 80%;
+    font-weight: bolder;
+    
+    transition: all .5s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.linkJogos:hover{
+    font-size: 80%;
+    font-weight: bolder;
+    padding: 0 0 10px 0;
+    transition: all .5s;
+    font-size: 100%;
+    color: #F20505;
+}
+
+/*Arte*/
+
+.textoArte{
+    margin-top: 40px;
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    background-color: #03A64A;
+    border-radius: 15px;
+    box-shadow: 10px 10px #007231;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.textoArte h1{
+    padding-top: 10px;
+    color: #1b1b1b;
+    font-family: 'Pixeldust Expanded', sans-serif;
+    text-shadow: 0 2px #004d21;
+}
+
+.textoArte h3{
+    padding: 10px 20px 10px 20px;
+}
+
+.textoArte h5{
+    padding: 0 0 10px 0;
+}
+
+.imagesArt{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagesArt .img-box{
+    width: 100px;
+    height: 100%;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(images/art1.png);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    position: relative;
+    cursor: pointer;
+}
+
+.imagesArt .img-box:nth-child(2){
+    background: url(images/art2.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.imagesArt .img-box:nth-child(3){
+    background: url(images/art3.png);
+    background-size: cover;
+    background-position: center;
+}
+.imagesArt .img-box:nth-child(4){
+    background: url(images/gif4.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagesArt .img-box:nth-child(5){
+    background: url(images/gif5.gif);
+    background-size: cover;
+    background-position: center;
+}
+.imagesArt .img-box:nth-child(6){
+    background: url(images/art6.png);
+    background-size: cover;
+    background-position: center;
+}
+.imagesArt .img-box:nth-child(7){
+    background: url(images/art7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagesArt .img-box:nth-child(8){
+    background: url(images/art8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagesArt .img-box:hover{
+    border-radius: 0px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Fim */
+
+.fim{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(black, rgba(0, 255, 191, 0.010), rgba(0, 255, 191, 0.050), rgba(0, 255, 191, 0.1));
+}
+
+.icons{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.icons nav{
+    justify-content: space-evenly;
+    align-self:center;
+    display: block;
+    text-align: center;
+    flex: 1;
+    font-family: 'Pixel Square', sans-serif;
+}
+
+.icons nav ul{
+    margin: 10px;
+}
+
+.icons nav ul li{
+    flex-wrap: wrap;
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.icons nav ul img{
+    height: 30px;
+    cursor: pointer;
+}
+
+.endText{
+    color: #fff;
+    line-height: 10px;
+    padding: 5px 8% 10PX 8%;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1b1b1b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(#03A64A, #04BF8A);
+    transition: 1s;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: -webkit-linear-gradient(#F20505, #730202);
+  }
+
+  @media only screen and (max-width: 780px){
+    .title{
+        font-size: 120%;
+        text-align: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    /*conteudo 1*/
+    .sobremim{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .textoSM{
+        box-shadow: none;
+    }
+
+    .foto{
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    /* 3d */
+
+    .texto3D{
+        box-shadow: none;
+    }
+
+    .images3d{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .img-box{
+        border-radius: 30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-box:hover{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-box:nth-child(5){
+        display: none;
+    }
+    .img-box:nth-child(6){
+        display: none;
+    }
+    .img-box:nth-child(7){
+        display: none;
+    }
+
+    /* jogos */
+
+    .jogos{
+        display: block;
+    }
+
+    .textoJogos{
+        margin-left: 0;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        box-shadow: none;
+    }
+    /* arte */
+
+    .imagesArt{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+
+    .textoArte{
+        box-shadow: none;
+    }
+
+    .img-box{
+        border-radius: 30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-box:hover{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-box:nth-child(5){
+        display: none;
+    }
+    .img-box:nth-child(6){
+        display: none;
+    }
+    .img-box:nth-child(7){
+        display: none;
+    }
+
+    /* fim */
+
+    .icons nav{
+        text-align: right;
+    }
+}
