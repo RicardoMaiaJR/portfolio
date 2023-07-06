@@ -487,42 +487,6 @@ nav ul li a:hover{
         height: 300px;
         margin-top: 20px;
     }
-
-    /* 3d */
-
-    .texto3D{
-        box-shadow: none;
-    }
-
-    .images3d{
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-        width: 100%;
-        box-shadow: none;
-    }
-
-    .img-box{
-        border-radius: 30px;
-        width: 100px;
-        height: 100px;
-    }
-
-    .img-box:hover{
-        width: 200px;
-        height: 200px;
-    }
-
-    .img-box:nth-child(5){
-        display: none;
-    }
-    .img-box:nth-child(6){
-        display: none;
-    }
-    .img-box:nth-child(7){
-        display: none;
-    }
-
     /* jogos */
 
     .jogos{
@@ -537,30 +501,7 @@ nav ul li a:hover{
         margin-bottom: 10px;
         box-shadow: none;
     }
-    /* arte */
-
-    .imagesArt{
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-        width: 100%;
-    }
-
-    .textoArte{
-        box-shadow: none;
-    }
-
-    .img-box{
-        border-radius: 30px;
-        width: 100px;
-        height: 100px;
-    }
-
-    .img-box:hover{
-        width: 200px;
-        height: 200px;
-    }
-
+    /* Imagens */
     .img-box:nth-child(5){
         display: none;
     }
