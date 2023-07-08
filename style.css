@@ -486,6 +486,11 @@ nav ul li a:hover{
         height: 300px;
         margin-top: 20px;
     }
+
+    /* 3d */
+
+    
+
     /* jogos */
 
     .jogos{
@@ -500,7 +505,8 @@ nav ul li a:hover{
         margin-bottom: 10px;
         box-shadow: none;
     }
-    /* Imagens */
+    /* arte */
+
     .img-box:nth-child(5){
         display: none;
     }
