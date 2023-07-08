@@ -342,16 +342,15 @@ nav ul li a:hover{
 }
 
 .imagesArt .img-box{
-    width: 100px;
+    width: 200px;
     height: 100%;
-    margin: 10px;
+    margin: auto;
     border-radius: 50px;
     background: url(images/art1.png);
     background-size: cover;
     background-position: center;
     transition: all .5s;
     position: relative;
-    cursor: pointer;
 }
 
 .imagesArt .img-box:nth-child(2){
